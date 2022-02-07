@@ -1,0 +1,193 @@
+.bodyall{
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .bodyall{
+        background-color: #f0f0f0;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+}
+
+.Cartcontainer{
+    overflow-x: scroll;
+}
+
+.CartWrapper{
+    background-color: #f0f0f0 ;  
+    margin-top: -40px;
+    border-radius: 10px;
+    margin-left: 90px;
+    width: 1000px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+ 
+    grid-gap: 16px;
+    overflow-x: scroll;
+    padding: 0 50px;
+  
+}
+
+@media only screen and (max-width: 768px) {
+    .CartWrapper{
+        background-color: #f0f0f0 ;  
+            
+        border-radius: 10px;
+        margin-left: 0;
+        width: 200px;
+        height: auto;
+        grid-template-columns: 1fr;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 16px;
+        overflow-x: scroll;
+    }
+
+}
+
+.CartCard{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    color: black;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    height: auto;
+    width: 250px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.CartCard:hover{
+    width: 300px;
+}
+
+.CartAmountContainer{
+    position: absolute;
+    top: 35px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .CartAmountContainer{
+        position: absolute;
+        top: 35px;
+        padding: 10px;
+        height: 50px;
+        width: 100px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.CartCheckoutContainer{
+    position: relative;
+    margin-left: 140px;
+    height: 50px;
+    width: 990px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.TotalAmountdisplayButton{
+    position: absolute;
+    right:140;
+}
+
+.TotalAmountdisplayButton2{
+    position: absolute;
+    right: 0;
+}
+
+.PutToCenter{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    .CartCheckoutContainer2{
+        background-color: #f0f0f0;
+       
+    }
+
+    .CartCheckoutContainer3{
+        background-color: #f0f0f0;
+       
+    }
+
+    .h1_style{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .TotalAmountdisplay{
+        display: flex;
+    }
+
+    .PutToCenter{
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+}
+
+
+
+.CartOverFlow{
+    overflow: scroll;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .CartOverFlow{
+        overflow: scroll;
+        background-color: aqua;
+    }
+}
+.CartDiv{
+    background-color: rgb(187, 64, 64);
+    height: 500px;
+   
+}
+
+.h1_style{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.h2_style{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.formcontainer{
+    height: 200px;
+    width: 500px;
+    display: flex;
+}

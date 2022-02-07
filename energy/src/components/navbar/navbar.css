@@ -1,0 +1,35 @@
+.navitem{
+    height: 80px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    color: #000;
+}
+
+.navimg{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navimg{
+        height: 200px;
+        width: 120px;
+        margin-top: 20px;
+    }
+}
+
+.shopppingdiv{
+    display: none;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .shopppingdiv{
+        margin-top: 30px;
+        color: #000;
+        display: flex;
+    }
+}
